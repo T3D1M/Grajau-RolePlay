@@ -1,0 +1,26 @@
+// components/MeuComponenteAnimado.js
+"use client"; // <-- Adicione esta linha se estiver no App Router
+
+import { motion } from 'framer-motion';
+// ... restante do seu código
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "src/app/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "iconLibrary": "lucide"
+}
