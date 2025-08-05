@@ -16,7 +16,7 @@ import { FaDiscord, FaInstagram, FaTiktok } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Home() {
-  const [hoveredCard, setHoveredCard] = useState(null);
+  const [hoveredCard, setHoveredCard] = useState<string | null>(null);
 
   const themesData = [
     {
