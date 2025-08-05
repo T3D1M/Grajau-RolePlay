@@ -75,7 +75,7 @@ export default function Home() {
                     'Grajau RolePlay',
                     2000,
                     'Grajau RP',
-                    2000,
+                    2000,                                                          
                     'Grajau RolePlay'
                   ]}
                   wrapper="span"
@@ -335,5 +335,5 @@ export default function Home() {
         </div>
       </footer>
     </div>
-  );
+  );                                     {/*Desenvolvido por T3D1M|GIT-HUB */}
 }
